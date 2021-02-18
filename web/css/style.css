@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04/10/2020, 22:18:48
+    Author     : RFagundes
+*/
+
+
+
+
+body{
+   background-color: black;
+}
+
+
+.inicio{
+    background: black;
+    height:300px;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding: 50px; 
+    color: greenyellow;   
+    font-size: 40px;
+}
+
+
+
+
+
+
+.c_rescissao{
+    
+    background: darkgray;
+    height:300px;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding: 50px; 
+    color: black; 
+}
+
+
+
+.descricao{
+    background: black;
+    height:300px;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding: 50px; 
+    color: gold; 
+    
+}
+
+
+
+
+.valores{
+   background: black;
+    height: 300px;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding: 50px; 
+    color: chartreuse;  
+    margin-bottom: 200px; 
+}
+
+
+
+
+
+
+.desc{
+   background: black;
+    height: 300px;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding: 50px; 
+    color: red;  
+    margin-bottom: 200px; 
+}
+
+
+
+.final{
+   background: black;
+    height: 100px;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding: 50px; 
+    color: aquamarine;
+    font-size: 30px;
+    margin-bottom: 200px; 
+}
+
+
+
+
+
+
+
+
+[data-anime]{
+  opacity: 0;
+  transition: .3s;   
+    
+}
+
+
+[data-anime="left"]{
+  transform: translate3d(-50px,0,0);   
+    
+}
+
+
+[data-anime="right"]{
+ transform: translate3d(50px,0,0);  
+    
+}
+
+[data-anime].animate{
+   opacity: 1;
+    transform: translate3d(0px,0px,0px);  
+    
+}
